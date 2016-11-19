@@ -1,0 +1,44 @@
+{
+  "name": "viber-chat-bot-demo",
+  "version": "0.0.1",
+  "description": "Viber chat bot simple Demo",
+  "main": "bot.js",
+  "scripts": {
+    "pretest": "eslint lib spec *.js",
+    "test": "node spec/support/jasmine-runner.js",
+    "create": "claudia create --api-module bot --region us-east-1 --configure-viber-bot",
+    "configure-viber": "claudia update --configure-viber-bot",
+    "deploy": "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubystream/viberChatBotDemo.git"
+  },
+  "keywords": [
+    "viber",
+    "chat",
+    "bot",
+    "claudia-bot-builder",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Dejan Dimic <dejan.dimic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubystream/viberChatBotDemo/issues"
+  },
+  "homepage": "https://github.com/rubystream/viberChatBotDemo#readme",
+  "dependencies": {
+    "aws-sdk": "^2.7.5",
+    "claudia-bot-builder": "^2.6.0",
+    "he": "^1.1.0",
+    "minimal-request-promise": "^1.3.0"
+  },
+  "devDependencies": {
+    "claudia": "^2.1.5",
+    "eslint": "^3.10.2",
+    "eslint-config-defaults": "^9.0.0",
+    "jasmine": "^2.5.2",
+    "jasmine-spec-reporter": "^2.7.0"
+  }
+}

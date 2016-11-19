@@ -2,7 +2,7 @@
 
 Viber Chat Bot simple Demo is an effort to utilize new [Viber chat bot API](https://developers.viber.com/).
 
-It's only for demo purpose and will show simple interaction. If you like You can extend this code to add more chat bpt wisdom. 
+It's only for demo purpose and will show simple interaction. If you like You can extend this code to add more chat bot wisdom. 
 
 
 ## Running tests
